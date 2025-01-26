@@ -1,0 +1,39 @@
+<div class='hd'>
+    <div class="hd1">
+      <h1>Employee Login Portal</h1>
+  
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <label class="l1">User Name:</label>
+        <input type="text" formControlName="userName" class="i1" placeholder="Enter User Name" />
+        <div *ngIf="loginForm.get('userName')?.invalid && loginForm.get('userName')?.touched">
+          <small *ngIf="loginForm.get('userName')?.errors?.['required']" class="n1">User Name is required.</small>
+          <small *ngIf="loginForm.get('userName')?.errors?.['minlength'] " class="n1">User Name must be at least 3 characters long.</small>
+          <small *ngIf="loginForm.get('userName')?.errors?.['notAlpha']" class="n1">User Name must be alphabets.</small>
+        </div>
+        <br/><br/>
+  
+        <label class="l1">Password:</label>&nbsp;
+        <input type="password" formControlName="password" class="i1" placeholder="Enter Password" />
+        <div *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched">
+          <small *ngIf="loginForm.get('password')?.errors?.['required']" class="n1">Password is required.</small>
+          <small *ngIf="loginForm.get('password')?.errors?.['minlength']" class="n1">Password must be at least 6 characters long.</small>
+        </div>
+        <br/>
+  
+        <button class="gd" type="submit">Login</button>&nbsp;
+        
+        
+        <!-- <button class="gd"  (click)="getData()">Getdetail</button> -->
+      </form>
+      <!-- <button class="gd"  (click)="getData()">Getdetail</button> -->
+      
+      <button class="gd"  (click)="getData()">Getdetail</button>
+      <div *ngIf="data">
+        <h3>Details received as of now:</h3>
+        <pre>{{data}}</pre>
+      </div>
+    
+      
+    </div> 
+  </div>
+  

@@ -1,0 +1,108 @@
+.container{
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    margin-top: 10px;
+    background-color: #FFE9D0;
+    background-image: url('https://img.freepik.com/premium-vector/cyber-security-digital-background_734894-18.jpg');
+    height: 405px;
+}
+
+.content{
+    /* text-align: center; */
+}
+
+.cardcontrol{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    margin-right: 3%;
+  }
+  
+  .card-img {
+    width: 100%;
+    display: block;
+  }
+
+
+  .head1{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    /* text-align: center; */
+  padding:15px;
+  align-items: center;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  }
+
+  .foot1{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 15px;
+    color: white;
+  font-size: large;
+  font-weight: 700;
+  margin-top: 10px;
+  }
+
+  /* .mid1{ */
+    /* background-color: #FFEFD5; */
+    /* font-size: medium;
+    text-align: center;
+    width: 500px;
+    height: 45px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 150px;
+    color: black;
+    font-weight:bolder; */
+  /* } */
+
+  .mid1 {
+    font-family: 'Algerian'; 
+    /* background-color: #f0f0f0;  */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjmxmKf2yvhHjI5DD2BQutudYQLd-DIriVbj-hBXlSdDhkUBrh0gTXQhagclBH-gR_L3E&usqp=CAU');
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    padding: 20px; 
+    max-width: 285px;
+    height: 185px;
+    margin: 20px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 300px;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+
+
+.mid1 br {
+  content: "\A"; 
+  white-space: pre; 
+}
+
+.mid1 span {
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 10px; 
+  font-size: large;
+  font-weight: 600;
+  color: black; 
+}
+.mid1.span .label {
+  font-weight: bold; 
+  color: black;
+}
+
+  

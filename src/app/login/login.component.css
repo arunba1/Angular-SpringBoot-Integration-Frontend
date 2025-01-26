@@ -1,0 +1,101 @@
+h1{
+    color: white;
+}
+
+/* .hd{
+    background-color: bisque;
+    text-align: center;
+    height: 422px;
+} */
+
+.hd {
+    position: relative;
+    height: 97vh;
+    /* background-color: yellowgreen; */
+    background-image: url('https://media.istockphoto.com/id/1313285963/vector/cyber-security-technology-concept-shield-with-keyhole-icon-personal-data.jpg?s=612x612&w=0&k=20&c=f5EIvVfgFJz5NR7SEp7v6npNQn9Dsx6MkYk7wcAF9Lo=');
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+pre {
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+/* .hd1{
+    display:inline-block;
+    height: 250px;
+    border:2px solid black;
+    width: 400px;
+    border-radius: 10px;
+} */
+
+.l1{
+    font-weight: 900;
+    font-size: large;
+}
+
+.i1{
+    border-radius:8px;
+    height: 23px;
+}
+
+.hd1 {
+    /* background-color: bisque; */
+    display: inline-block;
+    height: 350px;
+    width: 400px;
+    border: 3.5px solid white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    z-index: 1; 
+}
+
+.foot2{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 15px;
+    color: white;
+  font-size: large;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.gd{
+    background-color: blue;
+    color: white;
+    margin-top: 4%;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 33px;
+    font-weight: 600;
+}
+
+.head2{
+    background-color: purple;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+}
+
+.n1{
+    color: white;
+    font-weight: 800;
+}
+
+.l1{
+    color: white;
+    font-size: 20px;
+}
